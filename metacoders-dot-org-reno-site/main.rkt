@@ -25,7 +25,7 @@
 (define (index)
   (page index.html
         (city-page
-         #:banner-url "https://live.staticflickr.com/4414/36082399434_db9dba3ec6_b.jpg"
+         #:banner-url "https://live.staticflickr.com/2916/14377709314_0ccfdd06cf_k.jpg" ;"https://live.staticflickr.com/4414/36082399434_18e1e4bdff_o.jpg"
          #:locations-list (list
                            (location-courses
                             #:location-name "LOCATION 1"
