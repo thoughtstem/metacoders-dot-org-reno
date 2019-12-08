@@ -25,6 +25,7 @@
 (define (index)
   (page index.html
         (city-page
+         #:city-name "Reno"
          #:banner-url "https://live.staticflickr.com/2916/14377709314_0ccfdd06cf_k.jpg" ;"https://live.staticflickr.com/4414/36082399434_18e1e4bdff_o.jpg"
          #:locations-list (list
                            (location-courses
