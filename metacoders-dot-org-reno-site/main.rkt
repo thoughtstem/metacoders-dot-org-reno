@@ -1,10 +1,16 @@
 #lang at-exp racket
 
-(provide pages index)
+(provide pages index
+         weekly-class-k-2nd-winter
+         weekly-class-3rd-6th-winter
+         weekly-class-k-2nd-spring
+         weekly-class-3rd-6th-spring)
 
 (require metacoders-dot-org-reno-lib
          metacoders-dot-org-lib)
-         
+
+; If you are creating a brand new course,
+; run (generate-random-sku)) to generate a unique sku id
 (define (weekly-class-k-2nd-winter) 
   (course
       #:topic         "Awesome Animals!"
