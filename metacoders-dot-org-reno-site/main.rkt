@@ -47,7 +47,7 @@
       #:description   "In our Spring Saturday class, students will learn how to code their own whack-a-mole style games that utilize the mouse. Students will learn how to customize their game with near endless possible combinations: Are you a UFO collecting cows? Or a kid eating up their favorite foods and avoiding their least favorites? Or a ninja nabbing fruit and not the bombs? Their games will feature a point system, and students will code in-game items such that they gain or lose points when the player clicks on them. This course will not only strengthen students’ coding skills, but also their keyboard and mouse skills. Throughout the course, students will earn physical badges that demonstrate their mastery and inspire them to keep coding!"
       #:grade-range   "K - 2nd"
       #:location      "University of Nevada, Reno"
-      #:address       "1845 E Northgate Dr, Irving, TX 75062"
+      #:address       "1664 N Virginia St, Reno, NV 89557"
       #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
       #:price         170
       #:start-time    "10:00 am"
