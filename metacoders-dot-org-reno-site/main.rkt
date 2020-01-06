@@ -1,10 +1,16 @@
 #lang at-exp racket
 
-(provide pages index)
+(provide pages index
+         weekly-class-k-2nd-winter
+         weekly-class-3rd-6th-winter
+         weekly-class-k-2nd-spring
+         weekly-class-3rd-6th-spring)
 
 (require metacoders-dot-org-reno-lib
          metacoders-dot-org-lib)
-         
+
+; If you are creating a brand new course,
+; run (generate-random-sku)) to generate a unique sku id
 (define (weekly-class-k-2nd-winter) 
   (course
       #:topic         "Awesome Animals!"
@@ -16,8 +22,8 @@
       #:address       "1664 N Virginia St, Reno, NV 89557"
       #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
       #:price         170
-      #:start-time    "10:00 am"
-      #:end-time      "11:30 am"
+      #:start-time    "10:00am"
+      #:end-time      "11:30am"
       #:meeting-dates (list "02/22/2020" "02/29/2020" "03/07/2020" "03/14/2020" "03/28/2020" "04/04/2020" "04/11/2020")
       #:status        'open
    ))
@@ -33,8 +39,8 @@
       #:address       "1664 N Virginia St, Reno, NV 89557"
       #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
       #:price         170
-      #:start-time    "12:00 pm"
-      #:end-time      "1:30 pm"
+      #:start-time    "12:00pm"
+      #:end-time      "1:30pm"
       #:meeting-dates (list "02/22/2020" "02/29/2020" "03/07/2020" "03/14/2020" "03/28/2020" "04/04/2020" "04/11/2020")
       #:status 'open
    ))
@@ -50,8 +56,8 @@
       #:address       "1664 N Virginia St, Reno, NV 89557"
       #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
       #:price         170
-      #:start-time    "10:00 am"
-      #:end-time      "11:30 am"
+      #:start-time    "10:00am"
+      #:end-time      "11:30am"
       #:meeting-dates (list "04/18/2020" "04/25/2020" "05/02/2020" "05/09/2020" "05/16/2020" "05/23/2020" "05/30/2020")
       #:status 'open
    ))
@@ -67,8 +73,8 @@
       #:address       "1664 N Virginia St, Reno, NV 89557"
       #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
       #:price         170
-      #:start-time    "12:00 pm"
-      #:end-time      "1:30 pm"
+      #:start-time    "12:00pm"
+      #:end-time      "1:30pm"
       #:meeting-dates (list "04/18/2020" "04/25/2020" "05/02/2020" "05/09/2020" "05/16/2020" "05/23/2020" "05/30/2020")
       #:status 'open
    ))
