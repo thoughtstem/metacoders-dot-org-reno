@@ -1,17 +1,13 @@
 #lang at-exp racket
 
-(provide pages index
-         weekly-class-k-2nd-winter
-         weekly-class-3rd-6th-winter
-         weekly-class-k-2nd-spring
-         weekly-class-3rd-6th-spring)
+(provide pages index)
 
 (require metacoders-dot-org-reno-lib
          metacoders-dot-org-lib)
 
 ; If you are creating a brand new course,
 ; run (generate-random-sku)) to generate a unique sku id
-(define (weekly-class-k-2nd-winter) 
+(define/provide-course weekly-class-k-2nd-winter 
   (course
       #:topic         "Awesome Animals!"
       #:sku           "sku_GOdyEEEkJ3XnB9"
@@ -22,13 +18,14 @@
       #:address       "1664 N Virginia St, Reno, NV 89557"
       #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
       #:price         170
+      #:discount      17
       #:start-time    "10:00am"
       #:end-time      "11:30am"
       #:meeting-dates (list "02/22/2020" "02/29/2020" "03/07/2020" "03/14/2020" "03/28/2020" "04/04/2020" "04/11/2020")
       #:status        'open
    ))
    
-(define (weekly-class-3rd-6th-winter) 
+(define/provide-course weekly-class-3rd-6th-winter
   (course
       #:topic         "Survival Video Game Design"
       #:sku           "sku_GOe2X552bFnLZp"
@@ -39,13 +36,14 @@
       #:address       "1664 N Virginia St, Reno, NV 89557"
       #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
       #:price         170
+      #:discount      17
       #:start-time    "12:00pm"
       #:end-time      "1:30pm"
       #:meeting-dates (list "02/22/2020" "02/29/2020" "03/07/2020" "03/14/2020" "03/28/2020" "04/04/2020" "04/11/2020")
       #:status 'open
    ))
 
-(define (weekly-class-k-2nd-spring) 
+(define/provide-course weekly-class-k-2nd-spring
   (course
       #:topic         "Point & Click Games!"
       #:sku           "sku_GOe3gCscfy3UPq"
@@ -56,13 +54,14 @@
       #:address       "1664 N Virginia St, Reno, NV 89557"
       #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
       #:price         170
+      #:discount      17
       #:start-time    "10:00am"
       #:end-time      "11:30am"
       #:meeting-dates (list "04/18/2020" "04/25/2020" "05/02/2020" "05/09/2020" "05/16/2020" "05/23/2020" "05/30/2020")
       #:status 'open
    ))
    
-(define (weekly-class-3rd-6th-spring) 
+(define/provide-course weekly-class-3rd-6th-spring
   (course
       #:topic         "Battle Arena Video Game Design"
       #:sku           "sku_GOe4tVRIqtLUDW"
@@ -73,6 +72,7 @@
       #:address       "1664 N Virginia St, Reno, NV 89557"
       #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
       #:price         170
+      #:discount      17
       #:start-time    "12:00pm"
       #:end-time      "1:30pm"
       #:meeting-dates (list "04/18/2020" "04/25/2020" "05/02/2020" "05/09/2020" "05/16/2020" "05/23/2020" "05/30/2020")
@@ -84,10 +84,10 @@
         (city-page
          #:city-name "Reno, NV"
          #:banner-url (prefix/pathify reno-banner-path)
-         #:school-year-courses (list (weekly-class-k-2nd-winter)
-                                     (weekly-class-3rd-6th-winter)
-                                     (weekly-class-k-2nd-spring)
-                                     (weekly-class-3rd-6th-spring))
+         #:school-year-courses (list weekly-class-k-2nd-winter
+                                     weekly-class-3rd-6th-winter
+                                     weekly-class-k-2nd-spring
+                                     weekly-class-3rd-6th-spring)
           )))
 
 (define (pages)
