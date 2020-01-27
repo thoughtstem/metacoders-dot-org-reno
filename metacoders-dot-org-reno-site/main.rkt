@@ -84,6 +84,7 @@
         (city-page
          #:city-name "Reno, NV"
          #:banner-url (prefix/pathify reno-banner-path)
+         #:alt-tag "City of Reno, Nevada with busy streets and welcome sign"
          #:school-year-courses (list weekly-class-k-2nd-winter
                                      weekly-class-3rd-6th-winter
                                      weekly-class-k-2nd-spring
