@@ -86,9 +86,10 @@
         #:description   (~a "In this camp, we'll explore coding & critical thinking skills through a newly developed programming language that combines the ease of visual programming with the benefits of typed programming.  Students will enjoy learning how to code their own zoo adventure with animals like elephants, giraffes, and lions! This particular camp will focus on developing critical thinking skills, one of the many benefits of learning computer science.")
         #:grade-range     "Entering K - 2nd"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
         #:price         320
+        #:discount      32
         #:check-in-time "8:45am - 9:00am"
         #:camp-time     "9:00am - 1:00pm"
         #:lunch-time    "12:00pm - 1:00pm"
@@ -104,9 +105,10 @@
         #:description   (~a "In this camp, we'll explore coding & creativity through a newly developed programming language that combines the ease of visual programming with the benefits of typed programming. Students will enjoy learning how to code video games that they can share with friends & family after camp. Students will be able to choose from a unique array of cartoon characters, items, and scenes so that they can exercise their creativity while designing their games!")
         #:grade-range     "Entering K - 2nd"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
         #:price         250
+        #:discount      25
         #:check-in-time "12:45pm - 1:00pm"
         #:camp-time     "1:00pm - 4:00pm"
        ; #:lunch-time    "12:00pm - 1:00pm"
@@ -122,9 +124,10 @@
         #:description   (~a "This summer, students will learn how to build a 2D video game with all the exciting elements of the popular 3D video game, Fortnite! In this camp, students will learn how to code different features of Fortnite, like enemies, armor, weapons, and potions, into their own unique 2D games! Our camps also go beyond the computer screen, utilizing \"unplugged\" games and social activities to round out the summer camp experience. In addition to leveling up their coding skills, students practice communication, teamwork, problem-solving, and abstract reasoning: indispensable skills for coders -- and humans -- everywhere!")
         #:grade-range     "Entering 3rd - 6th"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
         #:price         320
+        #:discount      32
         #:check-in-time "8:45am - 9:00am"
         #:camp-time     "9:00am - 1:00pm"
         #:lunch-time    "12:00pm - 1:00pm"
@@ -140,9 +143,10 @@
         #:description   (~a "This summer, students will learn the fundamentals of computer science by developing their own wizard-themed video games. Using Harry Potter as a point of inspiration, we will teach students how to craft their own adventure game inside a unique wizarding world. Our camps also go beyond the computer screen, utilizing \"unplugged\" games and social activities to round out the summer camp experience. In addition to leveling up their coding skills, students practice communication, teamwork, problem-solving, and abstract reasoning: indispensable skills for coders -- and humans -- everywhere!")
         #:grade-range     "Entering 3rd - 6th"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
         #:price         250
+        #:discount      25
         #:check-in-time "12:45pm - 1:00pm"
         #:camp-time     "1:00pm - 4:00pm"
        ; #:lunch-time    "12:00pm - 1:00pm"
@@ -158,9 +162,10 @@
         #:description   (~a "In this camp, we'll explore coding & abstract reasoning skills through a newly developed programming language that combines the ease of visual programming with the benefits of typed programming. Students will enjoy learning how to code their own farm adventure with animals like horses, cows, and sheep!  This particular camp will focus on developing abstract reasoning skills, one of the many benefits of learning computer science.")
         #:grade-range     "Entering K - 2nd"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
         #:price         320
+        #:discount      32
         #:check-in-time "8:45am - 9:00am"
         #:camp-time     "9:00am - 1:00pm"
         #:lunch-time    "12:00pm - 1:00pm"
@@ -172,13 +177,14 @@
 (define/provide-camp summer-camp-pokemon-k-2nd-7/13
   (camp #:topic         "Adventures in Coding and Pokemon"
         #:sku           "sku_qNEHOfk4RMybZogx6j0kZw"
-        #:video-path     clicker-pokemon-mp4-path                     
+        #:video-path    clicker-pokemon-mp4-path                     
         #:description   (~a "In this camp, we'll explore coding & communication skills through a newly developed programming language that combines the ease of visual programming with the benefits of typed programming. Students will enjoy learning how to code games using popular Pokemon characters.  This particular camp will focus on developing communication skills, with students learning how to translate from English instructions to code, but also explain their code to instructors.")
-        #:grade-range     "Entering K - 2nd"
-        #:location     "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
-       #:price         250
+        #:grade-range   "Entering K - 2nd"
+        #:location      "University of Nevada, Reno"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:price         250
+        #:discount      25
         #:check-in-time "12:45pm - 1:00pm"
         #:camp-time     "1:00pm - 4:00pm"
        ; #:lunch-time    "12:00pm - 1:00pm"
@@ -194,9 +200,10 @@
         #:description   (~a "This summer, students will learn how to code a 2D version of their favorite video game - Minecraft! Drawing on the video game mechanics of the hit 3D game, students will code their own 2D blocky survival game with day night cycles, health bars, and enemies like Creepers to hide from at night! Our camps also go beyond the computer screen, utilizing \"unplugged\" games and social activities to round out the summer camp experience. In addition to leveling up their coding skills, students practice communication, teamwork, problem-solving, and abstract reasoning: indispensable skills for coders -- and humans -- everywhere!")
         #:grade-range     "Entering 3rd - 6th"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
         #:price         320
+        #:discount      32
         #:check-in-time "8:45am - 9:00am"
         #:camp-time     "9:00am - 1:00pm"
         #:lunch-time    "12:00pm - 1:00pm"
@@ -212,9 +219,10 @@
         #:description   (~a "This summer, students will learn how to code their own video games that explore a Marvel-like universe! Using the popular movie series, The Avengers, for inspiration, students will create a battle arena video game that pens their favorite superheroes against their least favorite villians in an endless battle between good and evil! Our camps also go beyond the computer screen, utilizing \"unplugged\" games and social activities to round out the summer camp experience. In addition to leveling up their coding skills, students practice communication, teamwork, problem-solving, and abstract reasoning: indispensable skills for coders -- and humans -- everywhere!")
         #:grade-range     "Entering 3rd - 6th"
         #:location     "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
-       #:price         250
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:price         250
+        #:discount      25
         #:check-in-time "12:45pm - 1:00pm"
         #:camp-time     "1:00pm - 4:00pm"
        ; #:lunch-time    "12:00pm - 1:00pm"
@@ -230,9 +238,10 @@
         #:description   (~a "In this camp, we'll explore coding & creativity through a newly developed programming language that combines the ease of visual programming with the benefits of typed programming. Students will enjoy learning how to code video games that they can share with friends & family after camp. Students will be able to choose from a unique array of cartoon characters, items, and scenes so that they can exercise their creativity while designing their games!")
         #:grade-range     "Entering K - 2nd"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
         #:price         320
+        #:discount      32
         #:check-in-time "8:45am - 9:00am"
         #:camp-time     "9:00am - 1:00pm"
         #:lunch-time    "12:00pm - 1:00pm"
@@ -248,9 +257,10 @@
         #:description   (~a "In this camp, we'll explore coding & critical thinking skills through a newly developed programming language that combines the ease of visual programming with the benefits of typed programming.  Students will enjoy learning how to code their own zoo adventure with animals like elephants, giraffes, and lions! This particular camp will focus on developing critical thinking skills, one of the many benefits of learning computer science.")
         #:grade-range     "Entering K - 2nd"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
-       #:price         250
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:price         250
+        #:discount      25
         #:check-in-time "12:45pm - 1:00pm"
         #:camp-time     "1:00pm - 4:00pm"
        ; #:lunch-time    "12:00pm - 1:00pm"
@@ -267,9 +277,10 @@
         #:description   (~a "This summer, students will learn how to use the force of coding to create their own epic space-themed video games. Drawing our inspiration from the Star Wars universe, students will explore their favorite characters, powers, and dramatic moments, and from there, begin to incorporate their own characters and game dynamics into a battle arena video game of their own creation! Our camps also go beyond the computer screen, utilizing \"unplugged\" games and social activities to round out the summer camp experience. In addition to leveling up their coding skills, students practice communication, teamwork, problem-solving, and abstract reasoning: indispensable skills for coders -- and humans -- everywhere!")
         #:grade-range     "Entering 3rd - 6th"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
         #:price         320
+        #:discount      32
         #:check-in-time "8:45am - 9:00am"
         #:camp-time     "9:00am - 1:00pm"
         #:lunch-time    "12:00pm - 1:00pm"
@@ -285,9 +296,10 @@
         #:description   (~a "This summer, students will learn how to code a novel Pokemon-themed survival video game! Students will code video games in which their Pokemon is trying to survive in a world in which mean Pokemon trainers are throwing pokeballs at them trying to capture them! Our camps also go beyond the computer screen, utilizing \"unplugged\" games and social activities to round out the summer camp experience. In addition to leveling up their coding skills, students practice communication, teamwork, problem-solving, and abstract reasoning: indispensable skills for coders -- and humans -- everywhere!")
         #:grade-range     "Entering 3rd - 6th"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
-       #:price         250
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:price         250
+        #:discount      25
         #:check-in-time "12:45pm - 1:00pm"
         #:camp-time     "1:00pm - 4:00pm"
        ; #:lunch-time    "12:00pm - 1:00pm"
@@ -303,9 +315,10 @@
         #:description   (~a "In this camp, we'll explore coding & communication skills through a newly developed programming language that combines the ease of visual programming with the benefits of typed programming. Students will enjoy learning how to code games using popular Pokemon characters.  This particular camp will focus on developing communication skills, with students learning how to translate from English instructions to code, but also explain their code to instructors.")
         #:grade-range     "Entering K - 2nd"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
         #:price         320
+        #:discount      32
         #:check-in-time "8:45am - 9:00am"
         #:camp-time     "9:00am - 1:00pm"
         #:lunch-time    "12:00pm - 1:00pm"
@@ -321,9 +334,10 @@
         #:description   (~a "In this camp, we'll explore coding & abstract reasoning skills through a newly developed programming language that combines the ease of visual programming with the benefits of typed programming. Students will enjoy learning how to code their own farm adventure with animals like horses, cows, and sheep!  This particular camp will focus on developing abstract reasoning skills, one of the many benefits of learning computer science.")
         #:grade-range     "Entering K - 2nd"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
-       #:price         250
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:price         250
+        #:discount      25
         #:check-in-time "12:45pm - 1:00pm"
         #:camp-time     "1:00pm - 4:00pm"
        ; #:lunch-time    "12:00pm - 1:00pm"
@@ -339,9 +353,10 @@
         #:description   (~a "This summer, students will learn how to create their own Mario-themed adventure games! Since its release in 1985, Mario titles have been a huge hit with gamers of all ages. In this camp, students will learn how to code an adventure video game that draws on elements of the Mario franchise, like mushrooms and power-ups, for inspiration! Our camps also go beyond the computer screen, utilizing \"unplugged\" games and social activities to round out the summer camp experience. In addition to leveling up their coding skills, students practice communication, teamwork, problem-solving, and abstract reasoning: indispensable skills for coders -- and humans -- everywhere!")
         #:grade-range     "Entering 3rd - 6th"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
         #:price         320
+        #:discount      32
         #:check-in-time "8:45am - 9:00am"
         #:camp-time     "9:00am - 1:00pm"
         #:lunch-time    "12:00pm - 1:00pm"
@@ -357,9 +372,10 @@
         #:description   (~a "This summer, students will learn how to build a 2D video game with all the exciting elements of the popular 3D video game, Fortnite! In this camp, students will learn how to code different features of Fortnite, like enemies, armor, weapons, and potions, into their own unique 2D games! Our camps also go beyond the computer screen, utilizing \"unplugged\" games and social activities to round out the summer camp experience. In addition to leveling up their coding skills, students practice communication, teamwork, problem-solving, and abstract reasoning: indispensable skills for coders -- and humans -- everywhere!")
         #:grade-range     "Entering 3rd - 6th"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
-       #:price         250
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:price         250
+        #:discount      25
         #:check-in-time "12:45pm - 1:00pm"
         #:camp-time     "1:00pm - 4:00pm"
        ; #:lunch-time    "12:00pm - 1:00pm"
@@ -375,9 +391,10 @@
         #:description   (~a "In this camp, we'll explore coding & critical thinking skills through a newly developed programming language that combines the ease of visual programming with the benefits of typed programming.  Students will enjoy learning how to code their own zoo adventure with animals like elephants, giraffes, and lions! This particular camp will focus on developing critical thinking skills, one of the many benefits of learning computer science.")
         #:grade-range     "Entering K - 2nd"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
         #:price         320
+        #:discount      32
         #:check-in-time "8:45am - 9:00am"
         #:camp-time     "9:00am - 1:00pm"
         #:lunch-time    "12:00pm - 1:00pm"
@@ -392,9 +409,10 @@
         #:description   (~a "In this camp, we'll explore coding & creativity through a newly developed programming language that combines the ease of visual programming with the benefits of typed programming. Students will enjoy learning how to code video games that they can share with friends & family after camp. Students will be able to choose from a unique array of cartoon characters, items, and scenes so that they can exercise their creativity while designing their games!")
         #:grade-range     "Entering K - 2nd"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
-       #:price         250
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:price         250
+        #:discount      25
         #:check-in-time "12:45pm - 1:00pm"
         #:camp-time     "1:00pm - 4:00pm"
        ; #:lunch-time    "12:00pm - 1:00pm"
@@ -409,9 +427,10 @@
         #:description   (~a "This summer, students will learn the fundamentals of computer science by developing their own wizard-themed video games. Using Harry Potter as a point of inspiration, we will teach students how to craft their own adventure game inside a unique wizarding world. Our camps also go beyond the computer screen, utilizing \"unplugged\" games and social activities to round out the summer camp experience. In addition to leveling up their coding skills, students practice communication, teamwork, problem-solving, and abstract reasoning: indispensable skills for coders -- and humans -- everywhere!")
         #:grade-range     "Entering 3rd - 6th"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
         #:price         320
+        #:discount      32
         #:check-in-time "8:45am - 9:00am"
         #:camp-time     "9:00am - 1:00pm"
         #:lunch-time    "12:00pm - 1:00pm"
@@ -426,9 +445,10 @@
         #:description   (~a "This summer, students will learn how to code a 2D version of their favorite video game - Minecraft! Drawing on the video game mechanics of the hit 3D game, students will code their own 2D blocky survival game with day night cycles, health bars, and enemies like Creepers to hide from at night! Our camps also go beyond the computer screen, utilizing \"unplugged\" games and social activities to round out the summer camp experience. In addition to leveling up their coding skills, students practice communication, teamwork, problem-solving, and abstract reasoning: indispensable skills for coders -- and humans -- everywhere!")
         #:grade-range     "Entering 3rd - 6th"
         #:location      "University of Nevada, Reno"
-      #:address       "1664 N Virginia St, Reno, NV 89557"
-      #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
-       #:price         250
+        #:address       "1664 N Virginia St, Reno, NV 89557"
+        #:address-link  "https://goo.gl/maps/RUUyHdTJN7bWTLJU9"
+        #:price         250
+        #:discount      25
         #:check-in-time "12:45pm - 1:00pm"
         #:camp-time     "1:00pm - 4:00pm"
        ; #:lunch-time    "12:00pm - 1:00pm"
