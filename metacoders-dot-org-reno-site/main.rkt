@@ -81,7 +81,7 @@
       #:start-time    "12:00pm"
       #:end-time      "1:30pm"
       #:meeting-dates (list "02/22/2020" "02/29/2020" "03/07/2020" "03/14/2020" "03/28/2020" "04/04/2020" "04/11/2020")
-      #:status 'open
+      #:status 'closed
    ))
 
 (define/provide-course weekly-class-k-2nd-spring
