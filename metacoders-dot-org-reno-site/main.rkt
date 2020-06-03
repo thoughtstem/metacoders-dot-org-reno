@@ -13,17 +13,10 @@
 	  #:city-name "Reno, NV"
 	  #:banner-url (prefix/pathify reno-banner-path)
 	  #:alt-tag "City of Reno, Nevada with busy streets and welcome sign"
-	  (remote 
-	    ;TODO: Get charlotte looking/working the same, but with all the data defined over in mc-data/views/cities...
-	    ;"http://localhost:8080/city/pos/reno"
-
-	    ;If you want the POS to be fully dynamic, point to our backend. 
-	    ;"https://data.metacoders.org/city/pos/reno"
-
-	    ;But it's better to use a cached version (more robust -- i.e. if our backend isn't up)
-
-	    "https://mc-social-media.s3-us-west-1.amazonaws.com/static-points-of-sale/reno.html"
-	    ))
+	  
+	  (div class: "mb-0 pt-5 pb-5 text-center"
+	 	(h2 "Coming Soon!")
+	 	(p "We're prioritizing students', employees', and families' health during COVID-19. In the meantime, check out our Quarantine Coding Club using the link above!")))
         ))
 
 (define (pages)
